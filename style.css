@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    background-color: black;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+}
+
+.containers{
+    margin-left: 5rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 30px;
+    display: flex;
+    justify-content: right; 
+    font-family: "Montserrat", sans-serif;
+}
+
+li {
+    margin-left: 40px; 
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container {
+    position: relative;
+}
+
+.rev {
+    display: flex;
+    position: relative;
+}
+
+.img1 img {
+    position: absolute;
+    top: -10px;
+    left: 13.5%; /* This positions the image near the 't' in Revent */
+    width: 30px;
+    height: 30px;
+    z-index: 10; 
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+span {
+    font-size: 18px;
+    color: #fdec59;
+    font-weight: 500;
+    line-height: 22px;
+    font-family: "Inter", sans-serif;
+    margin-top: -10px;
+    padding-left: 6.5rem;
+}
+
+.container1 {
+    display: flex; /* This aligns the boxes side by side */
+    justify-content: space-between; /* Optional: Adds space between the boxes */
+    width: 80%; /* Adjust the container width */
+    margin-top: 4rem;
+}
+
+.btn{
+    width: 15rem;
+    height: 5rem;
+    background-color: #f4df24;
+    color: black;
+    border-radius: 1rem;
+    font-size: 20px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 1rem;
+}
+
+.inn{
+    width: 25rem;
+}
+
+.inn h2{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 44px;
+}
+
+.text1{
+    width: 33rem;
+}
+
+.text1 p{
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.box2 {
+    background: url('Vector (1).png') no-repeat center/cover;
+    width: 450px;
+    height: 415px;
+}
+
+.img2 {    
+    position: absolute;
+    width: 450px;
+    height: 415px;
+    left: 630.56px;
+    top: 200px;
+    background: url(Rectangle\ 92.png) no-repeat center/cover; 
+}
+
+.fonts {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.fonts i {
+    display: flex;
+    justify-content: center; /* Horizontally center the icon within its circle */
+    align-items: center; /* Vertically center the icon within its circle */
+    border-radius: 50%;
+    background-color: #f4df24;
+    color: black;
+    width: 50px;
+    height: 50px;
+    font-size: 24px; /* Adjust font size as needed */
+}
+
+
+.about {
+    width: 80%;
+    text-align: center; /* Centers the heading */
+    margin-top: 6rem;
+}
+
+.about h1 {
+    text-align: center;
+    font-size: 1.9rem;
+    padding-bottom: 10px; 
+    margin-bottom: 20px; 
+    display: inline-block;
+    border-bottom: 3px solid #FCE82F; /* Adjust color and thickness */
+    width: 150px; /* Set width of the border */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between; /* Aligns the boxes side by side */
+    align-items: center; /* Ensures vertical alignment */
+    margin-top: 2rem;
+}
+
+.box3 img {
+    width: 33rem;
+    height: 30rem;
+    border-radius: 10px;
+}
+
+.box4 {
+    width: 42%;
+    text-align: left;
+    display: flex;
+    flex-direction: column; /* Stacks text and button vertically */
+    justify-content: center; /* Centers the content vertically */
+}
+
+.p1 {
+    font-size: 23px;
+}
+
+.p2 {
+    font-size: 19px;
+    font-weight: 200;
+}
+
+.btn1 {
+    width: 15rem;
+    height: 4.5rem;
+    background-color: #f4df24;
+    color: black;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+    margin-top: 1rem;
+}
+
+.resume h1 {
+    text-align: center;
+    font-size: 2rem; /* Adjust as needed */
+    position: relative;
+    display: inline-block; /* Keep the heading in the middle */
+    border-bottom: 3px solid #FCE82F; /* Adjust color and thickness */
+    width: 138px; /* Set width of the border */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.resume{
+    margin-top: 6rem;
+}
+.clearfix {
+    display: flex;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px; 
+}
+
+.boxyear1{
+    float: right;
+    text-align: left;
+    margin-left: 26rem;
+    border-left: 6px solid #f4df24; 
+    padding-left: 20px; 
+}
+
+.boxyear{
+    float: left;
+    text-align: left;
+    border-left: 6px solid #f4df24; 
+    padding-left: 20px;
+}
+
+
+
+.get h1 {
+    text-align: center;
+    font-size: 2rem; 
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 2rem;
+    display: inline-block; 
+    border-bottom: 3px solid #FCE82F; 
+    width: 220px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.get {
+    width: 73%; 
+    margin: 2rem auto; 
+    margin-top: 6rem;
+}
+
+.call {
+    float: left; /* Position the box on the left */
+    width: 45%; /* Set width of the box */
+}
+
+.email {
+    float: right; /* Position the box on the right */
+    width: 45%; /* Set width of the box */
+}
+
+.boxyear h2, .boxyear1 h2 {
+    font-size: 1.5rem; /* Adjust the size as needed */
+    margin-bottom: 10px;
+}
+
+.boxyear p, .boxyear1 p {
+    margin-bottom: 15px;
+}
+
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer {
+    width: 100%;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center; 
+    margin-top: -2rem;
+}
+
+.whitespace {
+    display: flex;
+    justify-content: space-between; 
+    margin-bottom: 1rem;
+}
+
+.w1 {
+    width: 30rem;
+    border-radius: 0.5rem;
+    height: 2.5rem;
+    background-color: white;
+}
+
+.longwhite, .longwhite1 {
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: white;
+    margin-top: 1rem;
+}
+
+.longwhite {
+    height: 3rem;
+}
+
+.longwhite1 {
+    height: 8rem;
+}
+
+.btn2 {
+    width: 15rem;
+    height: 4.5rem;
+    background-color: #f4df24;
+    color: black;
+    border-radius: 0.5rem;
+    font-size: 20px;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    margin-top: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+
+
+
+
+.portfolio ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 30px;
+    display: flex;
+    justify-content: center; 
+    font-family: "Montserrat", sans-serif;
+}
+
+li {
+    margin-left: 40px; 
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+
+.portfolio h1 {
+    text-align: center;
+    font-size: 2rem; 
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: -1rem;
+    display: inline-block; 
+    border-bottom: 3px solid #FCE82F; 
+    width: 150px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align items */
+    width: 100%; /* Adjust the container width as needed */
+    margin: 0 auto; /* Center the portfolio container on the page */
+    margin-top: 6rem;
+}
+
+.portfolio .ports-container {
+    display: flex; /* Display ports in a row */
+    justify-content: space-between; /* Add space between ports */
+    width: 100%; /* Full width of the container */
+}
+
+.port1 {
+    background-color: #f4df24;
+    width: 30%; 
+    height: 25rem;
+    border-radius: 1rem;
+    background: url(Rectangle\ 27.png) no-repeat center/cover; 
+    
+}
+
+.all {
+    font-weight: 500;
+    border-radius: 0.5rem;
+    text-align: center;
+    color: black;
+    background-color: white;
+    height: 2.5rem;
+    padding-top: 1rem;
+}
+
+.all1{
+    padding-top: 1rem;
+}
+
+.list1 {
+    text-align: center; /* Center align the list */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+.list1 ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.list1 li {
+    display: inline-block; /* Allow list items to be side by side */
+    margin: 0 1rem; /* Space between items */
+    width: 6rem; /* Set width for consistent sizing */
+}
+
